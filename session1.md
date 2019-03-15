@@ -5,7 +5,7 @@ I didn't want to waste too much time on it due to my time constraint so I went o
 
 In order to control direction I need to event handlers for the arrow keys, and I need to prevent them from scrolling the page. I know from what little game development I've done that I'm going to need to wrap some things up in a function. 
 
-We need to clear the canvas, update the coordinates, and draw in a loop to animate the game. The problem I ran into was that the loop ran way too fast to be playable. I found a nice solution online to control the fps of requestAnimationFrame online that didn't rely on a timeout.
+We need to clear the canvas, update the coordinates, and draw in a loop to animate the game. The problem I ran into was that the loop ran way too fast to be playable. I found a nice solution to control the fps of requestAnimationFrame online that didn't rely on a timeout.
 
 That's all the time I had for this session. Next time I'll have to look at getting some collision detection going, spawning food in random locations, and growing the snake when it eats.
 
