@@ -162,8 +162,7 @@ let game = {
         ctx.fillText(`Score: ${game.score}`, 320, 295);
     },
     // This is our function which starts the animation and recursively updates
-    // We'll use this later to set delta time to smooth the framerate.
-    // 60 fps is really fast so we're going to slow it down to 20.
+    // 60 fps is really fast so we're going to slow it down to 15.
     gameLoop: function(t) {
         requestAnimationFrame(function(t){game.gameLoop(t)});
         game.current_time = Date.now();
