@@ -5,7 +5,7 @@ It was a simple assignment to remake the classic snake game as found on the old 
 The more I thought I about the more I liked the idea so I decided to give it a shot. I also decided to document all of my thinking along
 the way so I have something to point to about how I solve problems.
 
-## Parameters (self imposed)
+## Parameters
 __No game engine:__
 I decided to forego using a game engine since the point seemed to be to make sure I understood (or could figure out) manipulating objects in 
 space. No need to download a game engine for that when it's simple enough to animate things with javascript+canvas.
